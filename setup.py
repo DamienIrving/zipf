@@ -10,7 +10,8 @@ setup(
         'matplotlib',
         'pandas',
         'scipy',
-        'pyyaml'],
+        'pyyaml',
+        'pytest'],
     entry_points={
         'console_scripts': [
             'countwords = zipf.countwords:main',
