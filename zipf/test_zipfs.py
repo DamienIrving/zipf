@@ -1,8 +1,8 @@
 import pytest
 import numpy as np
 from collections import Counter
-import plotcounts
-import countwords
+from zipf import plotcounts
+from zipf import countwords
 
 def test_alpha():
     """Test the calculation of the alpha parameter.
